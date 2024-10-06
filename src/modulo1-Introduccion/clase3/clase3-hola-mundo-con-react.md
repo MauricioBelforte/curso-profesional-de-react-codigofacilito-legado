@@ -1,6 +1,6 @@
 # Clase 3 Del curso completo
 
-## Clase 3 del Módulo 1: Hola mundo con React
+## Clase 3 del Módulo 1 Introducción: Hola mundo con React
 
 ---
 

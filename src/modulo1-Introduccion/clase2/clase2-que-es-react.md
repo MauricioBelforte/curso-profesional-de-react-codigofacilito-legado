@@ -1,6 +1,6 @@
 # Clase 2 Del curso completo
 
-## Clase 2 del Módulo 1: ¿Qué es React?
+## Clase 2 del Módulo 1 Introducción: ¿Qué es React?
 
 ---
 

@@ -1,6 +1,6 @@
 # Clase 1 Del curso completo
 
-## Clase 1 del Modulo 1: Presentacíon del curso profesional de React
+## Clase 1 del Módulo 1 Introducción: Presentacíon del curso profesional de React
 
 ---
 
