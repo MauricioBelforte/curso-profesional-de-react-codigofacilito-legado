@@ -7,8 +7,8 @@ const SaludoCondicional4Clase9 = ()=>{
     const nombre= 'Condicional 4'
     return (
     <div>
-        <h1>Este es el último ejercicio de la Clase 9</h1>
-        <h1>{nombre}</h1>
+        <h1>Clase 9 - Condicionales </h1>
+        <h2>{nombre}</h2>
         {
             idioma==="es" ? <p>Hola Español</p>:<p>Hello English</p>
         }

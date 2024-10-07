@@ -7,13 +7,16 @@ import { SaludoCondicional1Clase9 } from './modulo2-JSX-Templates/clase5/Compone
 import { SaludoCondicional2Clase9 } from './modulo2-JSX-Templates/clase5/ComponenteSaludoCondicional2Clase9';
 import { SaludoCondicional3Clase9 } from './modulo2-JSX-Templates/clase5/ComponenteSaludoCondicional3Clase9';
 import { SaludoCondicional4Clase9 } from './modulo2-JSX-Templates/clase5/ComponenteSaludoCondicional4Clase9';
-
+import { NombresClase10 } from './modulo2-JSX-Templates/clase6/ComponenteNombres';
+import { Nombres2Clase10 } from './modulo2-JSX-Templates/clase6/ComponenteNombres2';
 
 function App() {
 
   return (
 
     <div>
+      <Nombres2Clase10 />
+      <NombresClase10 />
       <SaludoCondicional4Clase9 />
       <SaludoCondicional3Clase9 />
       <SaludoCondicional2Clase9 />

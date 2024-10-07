@@ -4,7 +4,25 @@
 
 ---
 
-Nos recomiendan usar Stackblitz que es como Visual Studio pero online y viene con los complementos ya instalados
+Nos recomiendan usar Stackblitz que es como Visual Studio pero online y viene con los complementos ya instalados.
+
+Pero yo voy a usar Visual Studio
+
+
+# Primeros pasos
+
+## 1. **Instalar Node.js en Windows**
+
+`npm` es un paquete que viene instalado por defecto con Node.js, así que se usa de una.
+`npx` es una herramienta de línea de comandos que viene incluida con `npm`.
+
+## 2. **En la terminal escribir** `npx create-react-app mi-aplicacion`
+
+Asegúrate de cambiar la palabra `mi-aplicacion` por el nombre de tu proyecto.
+
+Su nombre es un acrónimo de **Node Package eXecutor**.
+La principal función de `npx` es facilitar la ejecución de paquetes de Node.js sin necesidad de instalarlos globalmente en tu sistema.
+
 
 ## Ejemplo de crear un componente
 

@@ -1,3 +1,74 @@
+# Curso profesional de React de Codigo facilito (legado) 
+
+---
+
+## Contenido del curso
+
+### Módulo 1: Introducción (4 clases)
+1. Presentación del curso profesional de React
+2. Qué es React
+3. Hola mundo con React
+4. Cómo usar React en una página
+
+### Módulo 2: JSX - Templates (7 clases)
+1. Primeros pasos en JSX
+2. Elementos de React
+3. Mostrar componentes
+4. Expresiones JavaScript en JSX
+5. Condiciones
+6. Ciclos
+7. Listas
+
+### Módulo 3: Componentes (10 clases)
+1. Introducción a los componentes
+2. Definiendo componentes
+3. El render
+4. Introducción a las props
+5. Props en práctica
+6. Qué es el state
+7. Ejercicios con el state
+8. Ciclo de vida de un componente
+9. Eventos
+10. Efectos secundarios
+
+### Módulo 4: Formularios (3 clases)
+1. Leyendo el valor de los controles
+2. Enviando formularios
+3. Manipulando el DOM directamente
+
+### Módulo 5: Code Splitting (4 clases)
+1. Qué es Code Splitting
+2. Code Splitting en práctica
+3. Imports dinámicos
+4. React lazy y Suspense
+
+### Módulo 6: React Context (4 clases)
+1. Qué es React Context
+2. React context en práctica
+3. Actualizando el contexto
+4. Otros ejemplos del uso de contexto
+
+### Módulo 7: Cómo funciona React (3 clases)
+1. Qué es el Virtual DOM
+2. Qué son los hooks
+3. Cómo funciona JSX
+
+### Módulo 8: Componentes de clase (7 clases)
+1. Qué son los componentes de clase
+2. Cómo definir un componente de clase
+3. Trabajando con props
+4. Trabajando con el estado
+5. Preservando el contexto
+6. Métodos del ciclo de vida de un componente
+7. Ciclo de vida en un componente funcional
+
+### Módulo 9: Examen del curso 
+1. Examen final del curso
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

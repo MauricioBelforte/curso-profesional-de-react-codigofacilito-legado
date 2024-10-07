@@ -13,7 +13,7 @@ const SaludoCondicional1Clase9 = ()=>{
     
     return (
     <div>
-        <h1>Condicional 1</h1>
+        <h2>Condicional 1</h2>
         <SaludarEnIdiomas idioma="es" />
     </div>
     )
