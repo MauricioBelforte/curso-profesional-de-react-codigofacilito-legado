@@ -14,18 +14,21 @@ import { Nombres2Clase10 } from './modulo2-JSX-Templates/clase6/ComponenteNombre
 */
 
 import { NombresClase11 } from './modulo2-JSX-Templates/clase7/ComponenteNombresCorregido';
+import { UnComponenteDeClase } from './modulo3-Componentes/clase2/PrimerComponenteConClass';
 
 function App() {
 
   return (
 
     <div>
-
+      
+      <UnComponenteDeClase />
       <NombresClase11 />
 
-            
-    {/*  
-     <Nombres2Clase10 />
+
+      {/*  
+
+      <Nombres2Clase10 />
       <NombresClase10 />
       <SaludoCondicional4Clase9 />
       <SaludoCondicional3Clase9 />
@@ -34,9 +37,10 @@ function App() {
       <SaludoClase8 />
       <SaludoClase7 />
       <SaludoClase3 />  
-    */}
 
-    
+      */}
+
+
     </div>
 
   );
