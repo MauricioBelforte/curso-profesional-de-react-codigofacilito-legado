@@ -11,23 +11,28 @@ import { SaludoCondicional3Clase9 } from './modulo2-JSX-Templates/clase5/Compone
 import { SaludoCondicional4Clase9 } from './modulo2-JSX-Templates/clase5/ComponenteSaludoCondicional4Clase9';
 import { NombresClase10 } from './modulo2-JSX-Templates/clase6/ComponenteNombres';
 import { Nombres2Clase10 } from './modulo2-JSX-Templates/clase6/ComponenteNombres2'; 
-*/
-
 import { NombresClase11 } from './modulo2-JSX-Templates/clase7/ComponenteNombresCorregido';
 import { UnComponenteDeClase } from './modulo3-Componentes/clase2/PrimerComponenteConClass';
+*/
+
+
+import { SaludarConProps } from './modulo3-Componentes/clase5/ComponenteConProps';
+import { SaludarConPropsDefault } from './modulo3-Componentes/clase5/ComponenteConPropsDefault';
+import { SaludarConPropsDefaultVanilla } from './modulo3-Componentes/clase5/ComponenteConPropsDefaultVanilla';
+import { SaludarConPropsDesestructuradas } from './modulo3-Componentes/clase5/ComponenteConPropsDesestructuradas';
 
 function App() {
 
   return (
 
     <div>
-      
-      <UnComponenteDeClase />
-      <NombresClase11 />
-
-
-      {/*  
-
+      <SaludarConPropsDefaultVanilla />
+      <SaludarConPropsDefault />
+      <SaludarConPropsDesestructuradas nombre="Clase 16 - Props en practica"  idioma="es" />
+      <SaludarConProps nombre="Clase 16 - Props en practica"  idioma="es"/>
+     
+     {/*  <UnComponenteDeClase />
+      <NombresClase11 /> 
       <Nombres2Clase10 />
       <NombresClase10 />
       <SaludoCondicional4Clase9 />
@@ -37,7 +42,6 @@ function App() {
       <SaludoClase8 />
       <SaludoClase7 />
       <SaludoClase3 />  
-
       */}
 
 
