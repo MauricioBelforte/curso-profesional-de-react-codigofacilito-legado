@@ -54,7 +54,7 @@ En App.js lo llamamos así:
 <SaludarConPropsDesestructuradas nombre="Clase 16 - Props en práctica" idioma="es" />
 ```
 
-### Establecer props por defecto
+### Establecer props por defecto (Esta primera forma no es la recomendada)
 
 ```javascript
 import React from "react";
@@ -109,3 +109,6 @@ En App.js lo llamamos así:
 
 ---
 
+
+
+## La forma actual es la segunda usando parametros por defecto de EMC

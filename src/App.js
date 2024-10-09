@@ -20,12 +20,14 @@ import { SaludarConProps } from './modulo3-Componentes/clase5/ComponenteConProps
 import { SaludarConPropsDefault } from './modulo3-Componentes/clase5/ComponenteConPropsDefault';
 import { SaludarConPropsDefaultVanilla } from './modulo3-Componentes/clase5/ComponenteConPropsDefaultVanilla';
 import { SaludarConPropsDesestructuradas } from './modulo3-Componentes/clase5/ComponenteConPropsDesestructuradas';
+import { ButtonClase18 } from './modulo3-Componentes/clase7/ComponenteButtonClase18';
 
 function App() {
 
   return (
 
     <div>
+      <ButtonClase18 />
       <SaludarConPropsDefaultVanilla />
       <SaludarConPropsDefault />
       <SaludarConPropsDesestructuradas nombre="Clase 16 - Props en practica"  idioma="es" />
