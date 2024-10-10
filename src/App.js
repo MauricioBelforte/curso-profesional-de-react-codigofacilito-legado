@@ -1,5 +1,9 @@
 
 import './App.css';
+import { ButtonConUseEffectClase19 } from './modulo3-Componentes/clase8/ButtonConUseEffectClase19';
+
+import { ButtonConUseEffectSolo1Clase19 } from './modulo3-Componentes/clase8/ButtonConUseEffectSolo1EjecucionClase19';
+import { ButtonEliminarClase19 } from './modulo3-Componentes/clase8/ButtonEliminarClase19';
 
 /* 
 import { SaludoClase3 } from './modulo1-Introduccion/clase3/ComponenteSaludoClase3';
@@ -13,27 +17,31 @@ import { NombresClase10 } from './modulo2-JSX-Templates/clase6/ComponenteNombres
 import { Nombres2Clase10 } from './modulo2-JSX-Templates/clase6/ComponenteNombres2'; 
 import { NombresClase11 } from './modulo2-JSX-Templates/clase7/ComponenteNombresCorregido';
 import { UnComponenteDeClase } from './modulo3-Componentes/clase2/PrimerComponenteConClass';
-*/
-
-
 import { SaludarConProps } from './modulo3-Componentes/clase5/ComponenteConProps';
 import { SaludarConPropsDefault } from './modulo3-Componentes/clase5/ComponenteConPropsDefault';
 import { SaludarConPropsDefaultVanilla } from './modulo3-Componentes/clase5/ComponenteConPropsDefaultVanilla';
 import { SaludarConPropsDesestructuradas } from './modulo3-Componentes/clase5/ComponenteConPropsDesestructuradas';
 import { ButtonClase18 } from './modulo3-Componentes/clase7/ComponenteButtonClase18';
+*/
+
+
 
 function App() {
 
   return (
 
     <div>
-      <ButtonClase18 />
-      <SaludarConPropsDefaultVanilla />
-      <SaludarConPropsDefault />
-      <SaludarConPropsDesestructuradas nombre="Clase 16 - Props en practica"  idioma="es" />
-      <SaludarConProps nombre="Clase 16 - Props en practica"  idioma="es"/>
+    <ButtonEliminarClase19 /> 
+    <ButtonConUseEffectSolo1Clase19 />
+    <ButtonConUseEffectClase19 />
+     {/*  
      
-     {/*  <UnComponenteDeClase />
+     <ButtonClase18 />
+     <SaludarConPropsDefaultVanilla />
+     <SaludarConPropsDefault />
+     <SaludarConPropsDesestructuradas nombre="Clase 16 - Props en practica"  idioma="es" />
+     <SaludarConProps nombre="Clase 16 - Props en practica"  idioma="es"/>
+     <UnComponenteDeClase />
       <NombresClase11 /> 
       <Nombres2Clase10 />
       <NombresClase10 />
