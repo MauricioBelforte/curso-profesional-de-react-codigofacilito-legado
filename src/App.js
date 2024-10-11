@@ -1,11 +1,12 @@
 
 import './App.css';
+import { SaludoClase20 } from './modulo3-Componentes/clase9/SaludoClase20';
+
+/* 
 import { ButtonConUseEffectClase19 } from './modulo3-Componentes/clase8/ButtonConUseEffectClase19';
 
 import { ButtonConUseEffectSolo1Clase19 } from './modulo3-Componentes/clase8/ButtonConUseEffectSolo1EjecucionClase19';
 import { ButtonEliminarClase19 } from './modulo3-Componentes/clase8/ButtonEliminarClase19';
-
-/* 
 import { SaludoClase3 } from './modulo1-Introduccion/clase3/ComponenteSaludoClase3';
 import { SaludoClase7 } from './modulo2-JSX-Templates/clase3/SaludoClase7';
 import { SaludoClase8 } from './modulo2-JSX-Templates/clase4/ComponenteSaludoClase8';
@@ -31,11 +32,13 @@ function App() {
   return (
 
     <div>
-    <ButtonEliminarClase19 /> 
-    <ButtonConUseEffectSolo1Clase19 />
-    <ButtonConUseEffectClase19 />
+
+    <SaludoClase20 />
      {/*  
      
+     <ButtonEliminarClase19 /> 
+     <ButtonConUseEffectSolo1Clase19 />
+     <ButtonConUseEffectClase19 />
      <ButtonClase18 />
      <SaludarConPropsDefaultVanilla />
      <SaludarConPropsDefault />

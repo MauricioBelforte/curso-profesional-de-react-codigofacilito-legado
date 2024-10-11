@@ -4,6 +4,8 @@
 
 ---
 
+Estado: El estado es una forma de almacenar y gestionar datos que pueden cambiar con el tiempo en respuesta a eventos.
+
 Una analogía que podemos utilizar es la de los estados de la materia: sólido, líquido y gaseoso. Dependiendo de la temperatura, estos pueden cambiar. Lo mismo pasa con los componentes de React; conforme modificamos lo que llamamos estado, los componentes se actualizan y cambian.
 
 El **estado** es la información que le pertenece al componente y puede ser **modificada o actualizada**. Estas modificaciones se verán reflejadas en lo que muestra en la **interfaz gráfica** nuestro componente. 
