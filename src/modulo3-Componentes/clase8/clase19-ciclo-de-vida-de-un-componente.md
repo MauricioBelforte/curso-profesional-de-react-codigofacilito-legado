@@ -1,7 +1,7 @@
 
 # Clase 19 Del curso completo
 
-## Clase 8 del Módulo 3: Ciclo de vida de un componente
+## Clase 8 del Módulo 3 Componentes: Ciclo de vida de un componente
 
 ---
 

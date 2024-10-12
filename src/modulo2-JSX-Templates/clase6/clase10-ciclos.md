@@ -1,6 +1,6 @@
 # Clase 10 Del curso completo
 
-## Clase 6 del Módulo 2: Ciclos
+## Clase 6 del Módulo 2 JSX - Templates: Ciclos
 
 ---
 

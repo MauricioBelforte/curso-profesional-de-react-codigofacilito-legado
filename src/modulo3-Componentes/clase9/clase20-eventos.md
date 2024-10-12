@@ -1,6 +1,6 @@
 # Clase 20 Del curso completo
 
-## Clase 9 del Módulo 3: Eventos
+## Clase 9 del Módulo 3 Componentes: Eventos
 
 ---
 

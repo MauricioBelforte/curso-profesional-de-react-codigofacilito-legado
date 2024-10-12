@@ -1,6 +1,6 @@
 # Clase 16 Del curso completo
 
-## Clase 5 del Módulo 3: Props en práctica
+## Clase 5 del Módulo 3 Componentes: Props en práctica
 
 ---
 

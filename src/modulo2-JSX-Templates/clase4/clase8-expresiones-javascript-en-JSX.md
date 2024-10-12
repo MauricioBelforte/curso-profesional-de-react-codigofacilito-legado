@@ -1,6 +1,6 @@
 # Clase 8 Del curso completo
 
-## Clase 4 del Módulo 2: Expresiones JavaScript en JSX
+## Clase 4 del Módulo 2 JSX - Templates: Expresiones JavaScript en JSX
 
 ---
 

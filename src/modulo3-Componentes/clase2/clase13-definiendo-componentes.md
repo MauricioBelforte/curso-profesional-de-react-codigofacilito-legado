@@ -1,6 +1,6 @@
 # Clase 13 Del curso completo
 
-## Clase 2 del Módulo 3: Definiendo componentes
+## Clase 2 del Módulo 3 Componentes: Definiendo componentes
 
 ---
 

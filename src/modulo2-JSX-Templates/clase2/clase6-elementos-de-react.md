@@ -1,6 +1,6 @@
 # Clase 6 Del curso completo
 
-## Clase 2 del Modulo 2: Elementos de React
+## Clase 2 del Modulo 2 JSX - Templates: Elementos de React
 ---
 
 **JSX**: Es una sintaxis que se utiliza en React para describir cómo debería verse la interfaz de usuario. JSX permite escribir HTML dentro de JavaScript y es transformado en llamadas a `React.createElement` bajo el capó.

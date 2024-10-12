@@ -1,6 +1,6 @@
 # Clase 18 Del curso completo
 
-## Clase 7 del Módulo 3: Ejercicios con el State
+## Clase 7 del Módulo 3 Componentes: Ejercicios con el State
 
 ---
 

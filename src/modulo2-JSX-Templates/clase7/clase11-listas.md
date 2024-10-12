@@ -1,6 +1,6 @@
 # Clase 11 Del curso completo
 
-## Clase 7 del Módulo 2: Listas
+## Clase 7 del Módulo 2 JSX - Templates: Listas
 
 ---
 

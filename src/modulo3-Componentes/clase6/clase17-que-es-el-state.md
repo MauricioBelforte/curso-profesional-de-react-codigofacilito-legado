@@ -1,6 +1,6 @@
 # Clase 17 Del curso completo
 
-## Clase 6 del Módulo 3: ¿Qué es el state?
+## Clase 6 del Módulo 3 Componentes: ¿Qué es el state?
 
 ---
 

@@ -1,6 +1,6 @@
 # Clase 12 Del curso completo
 
-## Clase 1 del Módulo 3: Introducción a los componentes
+## Clase 1 del Módulo 3 Componentes: Introducción a los componentes
 
 ---
 

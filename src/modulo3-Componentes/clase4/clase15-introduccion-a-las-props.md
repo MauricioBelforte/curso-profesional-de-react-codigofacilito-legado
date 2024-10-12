@@ -1,6 +1,6 @@
 # Clase 15 Del curso completo
 
-## Clase 4 del Módulo 3: Introduccion a las props
+## Clase 4 del Módulo 3 Componentes: Introduccion a las props
 
 ---
 

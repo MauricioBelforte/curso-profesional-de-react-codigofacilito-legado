@@ -1,6 +1,6 @@
 # Clase 7 Del curso completo
 
-## Clase 3 del Módulo 2: Mostrar componentes
+## Clase 3 del Módulo 2 JSX - Templates: Mostrar componentes
 
 ---
 

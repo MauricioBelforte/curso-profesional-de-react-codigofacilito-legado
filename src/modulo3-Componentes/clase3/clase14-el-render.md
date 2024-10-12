@@ -1,6 +1,6 @@
 # Clase 14 Del curso completo
 
-## Clase 3 del Módulo 3: El Render
+## Clase 3 del Módulo 3 Componentes: El Render
 
 ---
 

@@ -1,6 +1,6 @@
 # Clase 9 Del curso completo
 
-## Clase 5 del Módulo 2: Condiciones
+## Clase 5 del Módulo 2 JSX - Templates: Condiciones
 
 Vamos a ver cómo se pueden poner condiciones. Adentro del return del componente no se puede poner un `if`, porque estamos en una expresión de retorno.
 

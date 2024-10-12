@@ -1,6 +1,6 @@
 # Clase 5 Del curso completo
 
-## Clase 1 del Modulo 2: Primeros pasos en JSX
+## Clase 1 del Modulo 2 JSX - Templates: Primeros pasos en JSX
 
 ---
 
