@@ -33,10 +33,10 @@ function App() {
   return (
 
     <div>
-    <FormularioClase22 />
-    <SaludoClase20 />
-     {/*  
+      <FormularioClase22 />
+      {/*  
      
+     <SaludoClase20 />
      <ButtonEliminarClase19 /> 
      <ButtonConUseEffectSolo1Clase19 />
      <ButtonConUseEffectClase19 />
