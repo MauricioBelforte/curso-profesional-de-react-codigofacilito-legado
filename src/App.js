@@ -1,6 +1,7 @@
 
 import './App.css';
 import { SaludoClase20 } from './modulo3-Componentes/clase9/SaludoClase20';
+import { FormularioClase22 } from './modulo4-Formularios/clase1/FormularioClase22';
 
 /* 
 import { ButtonConUseEffectClase19 } from './modulo3-Componentes/clase8/ButtonConUseEffectClase19';
@@ -32,7 +33,7 @@ function App() {
   return (
 
     <div>
-
+    <FormularioClase22 />
     <SaludoClase20 />
      {/*  
      
