@@ -1,9 +1,10 @@
 
 import './App.css';
-import { SaludoClase20 } from './modulo3-Componentes/clase9/SaludoClase20';
-import { FormularioClase22 } from './modulo4-Formularios/clase1/FormularioClase22';
+import { FormularioClase23 } from './modulo4-Formularios/clase2/FormularioClase23';
 
 /* 
+import { SaludoClase20 } from './modulo3-Componentes/clase9/SaludoClase20';
+import { FormularioClase22 } from './modulo4-Formularios/clase1/FormularioClase22';
 import { ButtonConUseEffectClase19 } from './modulo3-Componentes/clase8/ButtonConUseEffectClase19';
 
 import { ButtonConUseEffectSolo1Clase19 } from './modulo3-Componentes/clase8/ButtonConUseEffectSolo1EjecucionClase19';
@@ -33,9 +34,10 @@ function App() {
   return (
 
     <div>
-      <FormularioClase22 />
+      <FormularioClase23 />
       {/*  
      
+     <FormularioClase22 />
      <SaludoClase20 />
      <ButtonEliminarClase19 /> 
      <ButtonConUseEffectSolo1Clase19 />
