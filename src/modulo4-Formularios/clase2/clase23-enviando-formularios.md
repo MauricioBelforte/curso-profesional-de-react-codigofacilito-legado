@@ -49,22 +49,7 @@ En React se usa en el `label` `htmlFor`, para diferenciarlo del `for` de los cic
 Vamos a usar la documentación de la API de JSONPlaceholder para enviar el formulario desde la siguiente página: [https://jsonplaceholder.typicode.com/guide](https://jsonplaceholder.typicode.com/guide).
 
 `fetch` es una función en JavaScript que permite hacer solicitudes HTTP para obtener o enviar datos a un servidor. Es como un mensajero entre tu aplicación y el servidor.
-
-```javascript
-fetch('https://jsonplaceholder.typicode.com/posts', {
-  method: 'POST',
-  body: JSON.stringify({
-    title: 'foo',
-    body: 'bar',
-    userId: 1,
-  }),
-  headers: {
-    'Content-type': 'application/json; charset=UTF-8',
-  },
-})
-  .then((response) => response.json())
-  .then((json) => console.log(json));
-```
+antes y despues
 
 ### ¿Qué Hace Cada Parte?
 1. **URL**: `'https://jsonplaceholder.typicode.com/posts'`
@@ -74,26 +59,84 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
    - Especifica que esta es una solicitud POST, utilizada para enviar datos al servidor.
 
 3. **body**: `JSON.stringify({ ... })`
-   - Convierte un objeto JavaScript en una cadena JSON. Aquí estamos enviando un objeto con `title`, `body` y `userId`.
+   - Convierte un objeto JavaScript en una cadena JSON. Aquí estamos enviando un **objeto** con `title`, `body` y `userId`.
    ```javascript
-   title: 'foo',
-   body: 'bar',
-   userId: 1,
+   { 
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+   }
    ```
    - Son datos de ejemplo que se van a cargar en la petición POST.
+
+Luego de esto JSON.stringify({ ... })
+
+# Objeto Recibido por el Servidor (JSON enviado en el fetch)
+```json
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 1
+}
+```
 
 4. **headers**:
    - `Content-type: 'application/json; charset=UTF-8'` especifica que el contenido que se está enviando es JSON.
 
-5. **.then((response) => response.json())**
-   - Convierte la respuesta a formato JSON.
+5. **.then((response) => response.json())**   
+   - Convierte la respuesta del servidor en un objeto JavaScript ( response.json() le pide el objeto JSON a la respuesta y lo transforma en objeto Javascript ).
    - **then**: Es un método que se usa con promesas en JavaScript. Permite ejecutar código una vez que la promesa se haya resuelto (es decir, una vez que se haya completado una operación asincrónica como `fetch`).
-   - **(response) => response.json()**: Esto es una función de flecha que toma la respuesta de la solicitud `fetch` y la convierte en un objeto JSON. La respuesta original es un objeto `Response` que contiene métodos y propiedades sobre la respuesta HTTP. `.json()` es un método de este objeto que lee el cuerpo de la respuesta y la convierte en JSON.
+   - **(response) => response.json()**: Esto es una función de flecha que toma la respuesta de la solicitud `fetch` y la convierte en un objeto JavaScript. La respuesta original es un objeto `Response` que contiene métodos y propiedades sobre la respuesta HTTP. `.json()` es un método de este objeto que lee el cuerpo de la respuesta y la convierte en un objeto JavaScript.
+
+
+### Proceso Paso a Paso
+
+1. **Obtención de la Respuesta del Servidor**:
+    - Cuando usas `fetch`, envías una solicitud HTTP al servidor y recibes una respuesta.
+    - Esta respuesta es un objeto `Response` que contiene la información sobre la respuesta HTTP, como el estado de la solicitud, los encabezados y el cuerpo.
+
+2. **Conversión de JSON**:
+    - Usas `.then((response) => response.json())` para procesar la respuesta.
+    - Aquí, `response.json()` toma el cuerpo de la respuesta (que es una cadena JSON) y lo convierte en un objeto JavaScript.
+    - **Importante**: `response.json()` no solo lee la respuesta, sino que también la convierte en un objeto JavaScript que luego puede ser manejado en tu código.
+
+### Ejemplo con Explicaciones
+
+```javascript
+fetch('https://jsonplaceholder.typicode.com/posts', {
+  method: 'POST',
+  body: JSON.stringify({ title: titulo, body: body, userId: 1 }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())  // (1) Aquí se obtiene la respuesta, (2) se le pide el JSON y (3) se convierte a Objeto JavaScript
+  .then((responseData) => console.log(responseData));  // Ahora 'responseData' es un Objeto JavaScript
+```
+
+### Resumen
+
+- **Obtención de Respuesta**: `fetch` obtiene un objeto `Response` del servidor.
+- **Conversión de JSON**: `response.json()` lee la respuesta y la convierte en un objeto JavaScript.
+- **Objeto JavaScript**: El JSON convertido es ahora un objeto JavaScript, listo para ser usado.
+
+
+
+
+   # Respuesta del Servidor (JSON después del fetch)
+```json
+{
+  "id": 101,
+  "title": "foo",
+  "body": "bar",
+  "userId": 1
+}
+```
 
 6. **.then((json) => console.log(json))**
-   - Maneja los datos recibidos del servidor y los imprime en la consola.
-   - **then**: Similar al anterior, este `then` se ejecuta después de que la promesa anterior se haya resuelto. Aquí, se está trabajando con los datos JSON que se obtuvieron de la promesa anterior.
-   - **(json) => console.log(json)**: Esta es otra función de flecha que toma el objeto JSON resultante y lo imprime en la consola del navegador. `console.log(json)` es una manera de visualizar el contenido de los datos que recibiste del servidor.
+   - Maneja los datos recibidos del servidor y los imprime en la consola (Esto en si esta mal, ya que ya no se esta usando un objeto json sino un objeto javascript, por eso en consola se puede ver un objeto de tipo Obect y no un json).
+   - **then**: Similar al anterior, este `then` se ejecuta después de que la promesa anterior se haya resuelto. Aquí, se está trabajando con los datos JSON (que ya fueron transformados en objetos javascript) que se obtuvieron de la promesa anterior.
+   - **(json) => console.log(json)**: Esta es otra función de flecha que toma el objeto JSON resultante (mal llamado json ya es un objeto javascript) y lo imprime en la consola del navegador. `console.log(json)` es una manera de visualizar el contenido de los datos que recibiste del servidor.
 
 ### En resumen:
 1. Primero `fetch` hace una solicitud HTTP: En este caso, es una solicitud POST.
@@ -102,7 +145,10 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 
 
 ### Nombres Arbitrarios en Funciones de Flecha
-Los nombres que elijas para las variables en las funciones de flecha son arbitrarios y están ahí solo para referirse a los datos que estás manejando. Lo importante es que el primer `then` maneja la respuesta de la solicitud HTTP y el segundo `then` maneja los datos convertidos en JSON.
+
+Los nombres que elijas para las variables en las funciones de flecha son arbitrarios y están ahí solo para referirse a los datos que estás manejando. Lo importante es que el primer `then` maneja la respuesta de la solicitud HTTP y el segundo `then` maneja los datos convertidos en un objeto JavaScript.
+
+## Personalemente me gusta mas llamarlo data que json, ya que es un Object con datos
 
 #### Ejemplo Alternativo:
 ```javascript
