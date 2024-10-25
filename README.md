@@ -36,6 +36,11 @@
 2. Enviando formularios
 3. Manipulando el DOM directamente
 
+
+## En este repositorio finaliza la primera parte de la práctica, voy a crear mas repositorios con los siguientes módulos.
+
+
+
 ### Módulo 5: Code Splitting (4 clases)
 1. Qué es Code Splitting
 2. Code Splitting en práctica
